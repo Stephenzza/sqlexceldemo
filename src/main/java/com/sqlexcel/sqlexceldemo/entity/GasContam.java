@@ -16,8 +16,8 @@ public class GasContam {
     @ExcelProperty("pname")
     private String pname;
 
-    @ExcelProperty("datatime")
-    private String datatime;
+    @ExcelProperty("datetime")
+    private String datetime;
 
     @ExcelProperty("itemcode")
     private Integer itemcode;
@@ -29,6 +29,33 @@ public class GasContam {
     private Double standard;
 
     @ExcelProperty("status")
-    private Boolean status;
+    private String status;
 
+    public Integer getSubid() {
+        return subid;
+    }
+
+    public String getPname() {
+        return pname;
+    }
+
+    public String getDatatime() {
+        return datetime;
+    }
+
+    public Integer getItemcode() {
+        return itemcode;
+    }
+
+    public Double getItemvalue() {
+        return itemvalue;
+    }
+
+    public Double getStandard() {
+        return standard;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 }

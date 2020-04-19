@@ -2,9 +2,7 @@ package com.sqlexcel.sqlexceldemo.entity;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table( name="feiqi")
